@@ -1,5 +1,6 @@
 
-module ValidityChecking where
+module ValidityChecking where 
+
 import BasicDeclarations (Grid)
 import RowsColsBoxes (rows, cols, boxs)
 

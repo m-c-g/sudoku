@@ -1,10 +1,11 @@
 module Main where
 import Data.List
-import BasicDeclarations
-import BasicDefinitions
+-- import BasicDeclarations
+-- import BasicDefinitions
 import ExampleGrids
-import RowsColsBoxes
-import ValidityChecking
+-- import RowsColsBoxes
+-- import ValidityChecking
+import Solve0
 
 main :: IO ()
-main = putStrLn "Hello, Haskell!"
+main = putStrLn (unlines (head (solve4 diabolical)))
